@@ -11,7 +11,7 @@
   <remote fetch="git://github.com/embeddedartists"  name="EA"/>
   <remote fetch="git://github.com/murata-wireless"  name="Murata"/>
 
-  <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
+  <remote fetch="https://source.codeaurora.org/external/imx" name="fsl-release"/>
 
   <project remote="yocto" revision="64a257fa22126c4a40ff7e03424a404e360ebe1e" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="407c6cf408969445031a492e2d25e0e2749582ea" name="meta-freescale" path="sources/meta-freescale"/>
@@ -29,7 +29,7 @@
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" name="meta-browser" path="sources/meta-browser" />
   <project remote="QT5" revision="d4e7f73d04e8448d326b6f89908701e304e37d65" name="meta-qt5" path="sources/meta-qt5" />
 
-  <project remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" />
+  <project remote="fsl-release" revision="9867dae67c158e0820bf226bd18b792623e99b25" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" />
 
   <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="0e05eccd4dea7a32c1180658e375bf7517d99a36" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
